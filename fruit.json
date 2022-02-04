@@ -1,0 +1,425 @@
+{
+  "fruit": [
+    {
+      "id": 1,
+      "productName": "Banana",
+      "productCategory": "food",
+      "productImage": "https://www.bigbasket.com/media/uploads/p/s/10000031_21-fresho-banana-yelakki.jpg",
+      "productPrice": "55",
+      "productValue": "1kg",
+      "productAbout": "Tiny and small sized, this variety is called Yelakki in Bangalore and Elaichi in Mumbai. Despite its small size, they are naturally flavoured, aromatic and sweeter compared to regular bananas. Yelakki bananas are around 3- 4 inches long and contain a thinner skin and better shelf life than Robusta bananas."
+    },
+    {
+      "id": 2,
+      "productName": "Tender Coconut - Medium",
+      "productCategory": "food",
+      "productImage": "https://www.bigbasket.com/media/uploads/p/s/40057966_2-fresho-tender-coconut-medium.jpg",
+      "productPrice": "30",
+      "productValue": "1 pc"
+    },
+    {
+      "id": 3,
+      "productName": "Apple",
+      "productCategory": "food",
+      "productImage": "https://www.bigbasket.com/media/uploads/p/s/40134281_11-fresho-baby-apple-shimla.jpg",
+      "productPrice": "138",
+      "productValue": "1 kg"
+    },
+    {
+      "id": 4,
+      "productName": "Pomegranate",
+      "productCategory": "food",
+      "productImage": "https://www.bigbasket.com/media/uploads/p/s/10000269_30-fresho-pomegranate.jpg",
+      "productPrice": "133",
+      "productValue": "4 pc"
+    },
+    {
+      "id": 5,
+      "productName": "Guava",
+      "productCategory": "food",
+      "productImage": "https://www.bigbasket.com/media/uploads/p/s/10000370_14-fresho-guava.jpg",
+      "productPrice": "28",
+      "productValue": "500 g"
+    },
+    {
+      "id": 6,
+      "productName": "Papaya",
+      "productCategory": "food",
+      "productImage": "https://www.bigbasket.com/media/uploads/p/s/10000152_20-fresho-papaya-medium.jpg",
+      "productPrice": "55",
+      "productValue": "1pc 1.1kg-1.7kg"
+    },
+    {
+      "id": 7,
+      "productName": "Grapes",
+      "productCategory": "food",
+      "productImage": "https://www.bigbasket.com/media/uploads/p/mm/40218332_1-fresho-grapes-green-seedless-sonaka.jpg",
+      "productPrice": "57",
+      "productValue": "500 g "
+    },
+    {
+      "id": 8,
+      "productName": "Kiwi - Green",
+      "productCategory": "food",
+      "productImage": "https://www.bigbasket.com/media/uploads/p/s/20000911_30-fresho-kiwi-green.jpg",
+      "productPrice": "55",
+      "productValue": "3 pc"
+    },
+    {
+      "id": 9,
+      "productName": "Palak",
+      "productCategory": "vegetables",
+      "productImage": "https://www.bigbasket.com/media/uploads/p/s/10000188_12-fresho-palak-cleaned-without-roots.jpg",
+      "productPrice": "32",
+      "productValue": "500 g"
+    },
+    {
+      "id": 10,
+      "productName": "Capsicum - Green",
+      "productCategory": "vegetables",
+      "productImage": "https://www.bigbasket.com/media/uploads/p/s/10000069_20-fresho-capsicum-green.jpg",
+      "productPrice": "48",
+      "productValue": "500 g"
+    },
+    {
+      "id": 11,
+      "productName": "Ladies Finger",
+      "productCategory": "vegetables",
+      "productImage": "https://www.bigbasket.com/media/uploads/p/s/10000144_13-fresho-ladies-finger.jpg",
+      "productPrice": "34",
+      "productValue": "500 g"
+    },
+    {
+      "id": 12,
+      "productName": "Carrot",
+      "productCategory": "vegetables",
+      "productImage": "https://www.bigbasket.com/media/uploads/p/s/10000071_14-fresho-carrot-orange.jpg",
+      "productPrice": "30",
+      "productValue": "250 g"
+    },
+    {
+      "id": 13,
+      "productName": "Potato",
+      "productCategory": "vegetables",
+      "productImage": "https://www.bigbasket.com/media/uploads/p/s/10000159_25-fresho-potato.jpg",
+      "productPrice": "28",
+      "productValue": "1 kg"
+    },
+    {
+      "id": 14,
+      "productName": "Tomato",
+      "productCategory": "vegetables",
+      "productImage": "https://www.bigbasket.com/media/uploads/p/s/10000201_15-fresho-tomato-hybrid.jpg",
+      "productPrice": "18",
+      "productValue": "500 g"
+    },
+    {
+      "id": 15,
+      "productName": "Onion",
+      "productCategory": "vegetables",
+      "productImage": "https://www.bigbasket.com/media/uploads/p/s/10000150_19-fresho-onion.jpg",
+      "productPrice": "191",
+      "productValue": "5 kg"
+    },
+    {
+      "id": 16,
+      "productName": "Cabbage",
+      "productCategory": "vegetables",
+      "productImage": "https://www.bigbasket.com/media/uploads/p/s/10000066_25-fresho-cabbage.jpg",
+      "productPrice": "34",
+      "productValue": "1 pc"
+    },
+    {
+      "id": 17,
+      "productName": "Methi",
+      "productCategory": "vegetables",
+      "productImage": "https://www.bigbasket.com/media/uploads/p/s/10000112_18-fresho-methiventhaya-keerai-cleaned-without-roots.jpg",
+      "productPrice": "12",
+      "productValue": "250 g"
+    },
+    {
+      "id": 18,
+      "productName": "Beetroot",
+      "productCategory": "vegetables",
+      "productImage": "https://www.bigbasket.com/media/uploads/p/s/10000047_21-fresho-beetroot.jpg",
+      "productPrice": "19",
+      "productValue": "250 g"
+    },
+    {
+      "id": 19,
+      "productName": "Bitter Gourd - Sliced",
+      "productCategory": "Grocery",
+      "productImage": "https://www.bigbasket.com/media/uploads/p/mm/40005778_5-fresho-bitter-gourd-sliced.jpg",
+      "productPrice": "21",
+      "productValue": "200 g"
+    },
+    {
+      "id": 20,
+      "productName": "Coconut - Diced",
+      "productCategory": "Grocery",
+      "productImage": "https://www.bigbasket.com/media/uploads/p/s/40019379_5-fresho-coconut-diced.jpg",
+      "productPrice": "38",
+      "productValue": "150 g"
+    },
+    {
+      "id": 21,
+      "productName": "Organic Sprouts Mixed Gram",
+      "productCategory": "Grocery",
+      "productImage": "https://www.bigbasket.com/media/uploads/p/s/40158434_4-fresho-organic-sprouts-mixed-gram.jpg",
+      "productPrice": "23",
+      "productValue": "200 g"
+    },
+    {
+      "id": 22,
+      "productName": "Pineapple - Slices",
+      "productCategory": "Eggs",
+      "productCat": "Cut & Sprouts",
+      "productImage": "https://www.bigbasket.com/media/uploads/p/s/40090775_3-fresho-pineapple-slices.jpg",
+      "productPrice": "56",
+      "productValue": "200 g"
+    },
+    {
+      "id": 23,
+      "productName": "Pomegranate - Peeled",
+      "productCategory": "Eggs",
+      "productCat": "Cut & Sprouts",
+      "productImage": "https://www.bigbasket.com/media/uploads/p/s/40005823_7-fresho-pomegranate-peeled.jpg",
+      "productPrice": "96",
+      "productValue": "250 g"
+    },
+    {
+      "id": 24,
+      "productName": "Strawberry",
+      "productCategory": "Eggs",
+      "productCat": "Exotics Corner",
+      "productImage": "https://www.bigbasket.com/media/uploads/p/s/10000263_11-fresho-strawberry.jpg",
+      "productPrice": "72",
+      "productValue": "200 g"
+    },
+    {
+      "id": 25,
+      "productName": "Grapes - Bangalore Blue with Seed",
+      "productCategory": "Household Care",
+      "productCat": "Exotics Corner",
+      "productImage": "https://www.bigbasket.com/media/uploads/p/s/20000707_12-fresho-grapes-bangalore-blue-with-seed.jpg",
+      "productPrice": "30",
+      "productValue": "500 g"
+    },
+    {
+      "id": 26,
+      "productName": "Sweet Potato",
+      "productCategory": "Household Care",
+      "productCat": "Exotics Corner",
+      "productImage": "https://www.bigbasket.com/media/uploads/p/s/50000555_6-fresho-sweet-potato-organically-grown.jpg",
+      "productPrice": "28",
+      "productValue": "500 g"
+    },
+    {
+      "id": 28,
+      "productName": "Mushrooms - Button",
+      "productCategory": "ExoticsCorner",
+      "productCat": "Exotics Corner",
+      "productImage": "https://www.bigbasket.com/media/uploads/p/s/10000273_16-fresho-mushrooms-button.jpg",
+      "productPrice": "44",
+      "productValue": "1 pack (Approx .180g - 200 g)"
+    },
+    {
+      "id": 30,
+      "productName": "Sweet Corn",
+      "productCategory": "ExoticsCorner",
+      "productCat": "Exotics Corner",
+      "productImage": "https://www.bigbasket.com/media/uploads/p/mm/40004992_14-fresho-sweet-corn.jpg",
+      "productPrice": "38",
+      "productValue": "2 pc"
+    },
+    {
+      "productName": "mango",
+      "productCategory": "",
+      "productCat": "Fresh Vegetables",
+      "productImage": "https://www.bigbasket.com/media/uploads/p/s/10000263_11-fresho-strawberry.jpg",
+      "productPrice": "34",
+      "productValue": "1 kg",
+      "id": 31
+    },
+    {
+      "productName": "sldks",
+      "productCategory": "FreshVegetables",
+      "productCat": "CutAnd Sprouts",
+      "productImage": "http://localhost:3001/about",
+      "productPrice": "3231",
+      "productValue": "33",
+      "id": 32
+    },
+    {
+      "productName": "sldks",
+      "productCategory": "FreshVegetables",
+      "productCat": "CutAnd Sprouts",
+      "productImage": "http://localhost:3001/about",
+      "productPrice": "3231",
+      "productValue": "33",
+      "id": 33
+    },
+    {
+      "productName": "sldks",
+      "productCategory": "FreshVegetables",
+      "productCat": "CutAnd Sprouts",
+      "productImage": "http://localhost:3001/about",
+      "productPrice": "3231",
+      "productValue": "33",
+      "id": 34
+    },
+    {
+      "productName": "aaaa",
+      "productCategory": "FreshFruits",
+      "productCat": "",
+      "productImage": "http://localhost:3001/adminlogin",
+      "productPrice": "22",
+      "productValue": "aaa",
+      "id": 36
+    },
+    {
+      "productName": "aa",
+      "productCategory": "FreshFruits",
+      "productCat": "",
+      "productImage": "http://localhost:3001/adminlogin",
+      "productPrice": "33",
+      "productValue": "sd",
+      "id": 37
+    },
+    {
+      "productName": "",
+      "productCategory": "",
+      "productCat": "",
+      "productImage": "",
+      "productPrice": "",
+      "productValue": "",
+      "id": 38
+    },
+    {
+      "productName": "",
+      "productCategory": "",
+      "productCat": "",
+      "productImage": "",
+      "productPrice": "",
+      "productValue": "",
+      "id": 39
+    },
+    {
+      "productName": "aaaa",
+      "productCategory": "Household Care",
+      "productCat": "",
+      "productImage": "http://localhost:3001/adminlogin",
+      "productPrice": "22",
+      "productValue": "1 kg",
+      "productAbout": ";lf;adl asl;fasl dl;sf aere;'rl  ;lf,d; ;fl'd ';d ';ad'",
+      "id": 40
+    }
+  ],
+  "UserRegistration": [
+    {
+      "firstName": "ajay",
+      "LastName": "kharat",
+      "email": "sdsa@d",
+      "password": "1234",
+      "number": "23231221",
+      "id": 1
+    },
+    {
+      "firstName": "sss",
+      "LastName": "kharat",
+      "email": "sdsa@d",
+      "password": "1234",
+      "number": "23231221",
+      "id": 2
+    },
+    {
+      "firstName": "fff",
+      "LastName": "kharat",
+      "email": "sdsa@d",
+      "password": "1234",
+      "number": "23231221",
+      "id": 3
+    },
+    {
+      "firstName": "sham",
+      "LastName": "pp",
+      "email": "ajay@gmail.com",
+      "password": "1234",
+      "number": "89999999",
+      "address": "5555",
+      "id": 4
+    },
+    {
+      "firstName": "",
+      "LastName": "",
+      "email": "",
+      "password": "",
+      "number": "",
+      "address": "",
+      "id": 5
+    },
+    {
+      "firstName": "fdsfdf",
+      "LastName": "fdsf",
+      "email": "kharatajay998@gmail.com",
+      "password": "1234",
+      "number": "2223",
+      "address": "fdgfdss",
+      "id": 6
+    },
+    {
+      "firstName": "",
+      "LastName": "",
+      "email": "",
+      "password": "",
+      "number": "",
+      "address": "",
+      "id": 7
+    },
+    {
+      "firstName": "",
+      "LastName": "",
+      "email": "",
+      "password": "",
+      "number": "",
+      "address": "",
+      "id": 8
+    },
+    {
+      "firstName": "",
+      "LastName": "",
+      "email": "",
+      "password": "",
+      "number": "",
+      "address": "",
+      "id": 9
+    },
+    {
+      "firstName": "",
+      "LastName": "",
+      "email": "",
+      "password": "",
+      "number": "",
+      "address": "",
+      "id": 10
+    },
+    {
+      "firstName": "sajan",
+      "LastName": "kumar",
+      "email": "kharatajay998@gmail.com",
+      "password": "123",
+      "number": "5555555",
+      "address": "gfhghghdfhd",
+      "id": 11
+    },
+    {
+      "firstName": "purushottam",
+      "LastName": "rede",
+      "email": "pnr@gmsil.com",
+      "password": "ss",
+      "number": "8483955960",
+      "address": "ambad",
+      "id": 12
+    }
+  ]
+}
