@@ -1,0 +1,234 @@
+.home{
+    height: 98vh;
+    min-height: 100px;
+    background: url("https://s-i.huffpost.com/gen/2226114/images/o-HEALTHY-GROCERY-SHOPPING-facebook.jpg") ;
+    background-repeat:  no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.contain{
+   
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    color: #fff;
+    font-size: 2rem;
+   }
+.heading h3{
+    font-size: 30px;
+   }
+.saleInfo h1{
+    font-size: 80px;
+    font-weight: 700;
+    margin-top: 25px;
+   }
+.discription{
+    margin-top: 25px;
+   font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+}
+.button{
+    margin-top: 35px;
+   }
+.button button:hover{
+    color: #fff;
+    background-color: #111; 
+   }
+.button button{
+    font-size: 20px;
+    font-weight: 500;
+    width: 200px;
+    background-color: #fff;
+    border: 1px solid;
+    padding: 14px ;
+    transition: .2s linear;
+}
+.extraInfo{
+    width: 100%;
+    background-color: #fff;
+    height: 20rem;
+  }
+.extraInfo .inner-width{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items:center;
+    justify-content: space-between;
+    height: 100%;
+    padding: 50px;
+    color: #878787;
+   }
+.extraInfoMain{
+    display: flex;
+    font-size: 25px;
+   justify-content: space-between;
+    width: 100%;
+    margin-right: 50px;
+}
+.infoSection{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    justify-content: center;
+
+    
+}
+ .infoSection :first-child{
+  font-weight: 500;
+    color: black;
+ } 
+.extrainfoimg img{
+    width: 60px;
+    height: 60px;
+
+}
+.extraInfoMain:nth-child(2){
+    margin-top: 50px;
+}
+.categories-box{
+    width: 100%;
+    height: 70vh;
+    background-color: #f2f4ec;
+    padding: 5%;
+}
+.main-categori-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.categori-heading {
+    position: relative;
+    text-align: center;
+    color: #111;
+    font-size: 40px;
+    font-weight: 500;
+}
+.categori-heading h1{
+    font-size: 40px;
+}
+.categori-heading ::after{
+    content: "";
+    position: absolute;
+    height: 1px;
+    background-color: black;
+    width: 210px;
+   bottom: -7px;
+    left: 43%;
+}
+
+.categori-card .cardBox{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.wrapper{
+    max-height:250px;
+    display: flex;
+    overflow-x: auto;
+}
+
+.wrapper::-webkit-scrollbar{
+    width: 0;
+}
+
+.wrapper .item{
+    min-width: 200px;
+    height: 250px;
+    text-align: center;
+    background-color: #f2f4ec;
+    margin-right: 30px;
+    overflow-y: hidden;
+}
+.wrapper .item img{
+    width:100px;
+
+}
+.wrapper .item h3{
+    margin-top: 50px;
+
+}
+.wrapper .item:hover{
+    background-color: #fff;
+     box-shadow: 5px 5px 5px 10px #aaaaaa;
+    border: 1px solid #999;
+    
+}
+
+.cardBox:hover{
+      box-shadow: 5px 5px 5px 10px #aaaaaa;
+}
+
+.card-productinfo{
+    padding-bottom: 15px;
+}
+@media (max-width: 1080px) {
+    
+    .extraInfo .inner-width{
+        padding: 25px;
+    }
+    .extraInfoMain{
+        margin-right: 30px;
+        font-size: 20px;
+        padding: 5px;
+    }
+    .infoSection{
+        margin-left: 5px;
+    }
+    
+}
+@media (max-width: 998px){
+   
+    .saleInfo h1{
+        font-size: 70px;
+    }
+    .extraInfo{
+
+        height: 30rem;
+    }
+    .extraInfo .inner-width{
+       /* width: 950px; */
+       flex-wrap: wrap;
+    }
+    .extraInfoMain{
+      width: 250px;
+    
+    }
+}
+@media (max-width: 798px) {
+    .heading h3{
+        font-size: 25px;
+    } 
+    .saleInfo h1{
+        font-size: 60px;
+    }
+    .discription{
+        font-size: 18px;
+    }
+    .extraInfoMain{
+        width: 200px;
+        font-size: 20px;
+        padding: 5px;
+      
+      }
+      .extrainfoimg img{
+          height: 30px;
+          width: 30px;
+      }
+    
+}
+@media (max-width: 520px){
+    .heading h3{
+        font-size: 25px;
+    } 
+    .saleInfo h1{
+        font-size: 50px;
+    }
+    .discription{
+        font-size: 16px;
+    }
+}
