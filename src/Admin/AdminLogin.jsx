@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import axios from 'axios';
 import {useHistory} from 'react-router-dom';
 import {GrProductHunt} from 'react-icons/gr'
+import Navigation from '../NavBar/Navigation';
 
 export default function AdminLogin() {
     let history = useHistory();
@@ -38,6 +39,7 @@ export default function AdminLogin() {
     }
 
     return <>
+    <Navigation/>
         <section class="form my-4 offset-2 col-lg-6 ">
         <div class="container offset-2">
             <div class="row row-css no-gutters">
@@ -112,7 +114,7 @@ export default function AdminLogin() {
                         </div>
                         <div class="form-row">
                             <div class="col-lg-10">
-                                <button type="submit" class="btn1 my-3">Login</button>
+                                <button type="submit" class="btn1 my-3">ADD PRODUCT</button>
                             </div>
                         </div>
                     </form>

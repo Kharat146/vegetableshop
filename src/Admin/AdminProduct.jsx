@@ -3,6 +3,9 @@ import axios from 'axios';
 // import { useNavigate } from 'react-router-dom';
 import { MdDeleteOutline} from 'react-icons/md'
 import { FaEdit} from 'react-icons/fa'
+import Navigation from '../NavBar/Navigation';
+import {BiRupee} from 'react-icons/bi'
+
 
 
 export default function AdminProduct() {
@@ -26,6 +29,7 @@ export default function AdminProduct() {
     }
 
     return <>
+    <Navigation/>
             <h1 className='text-center m-5'>Your's Product</h1>
        
 
@@ -38,7 +42,7 @@ export default function AdminProduct() {
 
 
                         <div className="card col-8 col-sm-8 ml-sm-5 ml-3 .mx-md-5  col-md-4 col-lg-2  m-5 my-3 shadow bg-white rounded">
-                            <div className="card-heading"> product</div>
+                        <div className="card-heading text-end text-secondary"> {dd.productCategory}*</div>
                             <div className="card-body">
                                 <img src={dd.productImage} alt="" />
                                 <h4>{dd.productName}</h4>
@@ -46,7 +50,7 @@ export default function AdminProduct() {
                             </div>
                             <div className="card-footer">
                                 <h5 className="text-right text-secondary">{dd.productValue}</h5>
-                                <h3>{dd.productPrice} Rs.</h3>
+                                <h3><BiRupee/>{dd.productPrice} </h3>
                                 <button className='btn btn-danger' onClick={()=>{
                                     deleteItem(dd.id)
                                 }}>Delete <MdDeleteOutline/> </button>

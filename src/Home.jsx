@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import Navigation from './FlipcartClone/Navigation'
+import Navigation from './NavBar/Navigation'
 import './Home.css'
 import { FaTelegramPlane } from 'react-icons/fa'
 import { BsCartCheckFill } from 'react-icons/bs'

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
-import Navigation from './FlipcartClone/Navigation'
+import Navigation from './NavBar/Navigation';
 import axios from 'axios';
-import './Admin.css'
+import './Admin/Admin.css'
 import { useHistory } from 'react-router-dom';
 
 export default function UserLogin() {

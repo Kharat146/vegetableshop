@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import axios from 'axios';
 import { useHistory } from 'react-router-dom';
 import './UserRegitration.css';
+import Navigation from './NavBar/Navigation';
 
 export default function UserRegitration() {
     // const [admin, setAdmin] = useState({});
@@ -45,33 +46,7 @@ export default function UserRegitration() {
     }
 
     return <>
-
-        {/* <h1>this is User Regitration</h1>
-        <div className="container">
-            <div className="card col-lg-7 shadow bg-white rounded">
-
-                <form onSubmit={onSUbmitHandler2}>
-                    <div className="card-header">
-                        <h3 className="text-center">Form</h3>
-                    </div>
-                    <div className="card-body">
-                        <input type="text" style={{ fontSize: "20px" }} placeholder="enter product name" className=" form-control" value={task.productName} onChange={(e) => { setTask({ ...task, productName: e.target.value }) }} />
-                        <select name="" id="" className='form-control mt-3' style={{ fontSize: "20px" }} value={task.productCategory} onChange={(e) => { setTask({ ...task, productCategory: e.target.value }) }} >
-                            <option value="FreshFruits">product Category</option>
-                            <option value="FreshFruits">FreshFruits</option>
-                            <option value="FreshVegetables">FreshVegetables</option>
-                            <option value="CutAndSprouts">CutAndSprouts</option>
-                            <option value="ExoticsCorner">ExoticsCorner</option>
-                        </select>
-
-                        <input type="url" style={{ fontSize: "20px" }} placeholder="Image url" className=" form-control mt-4" value={task.productImage} onChange={(e) => { setTask({ ...task, productImage: e.target.value }) }} />
-                        <input type="number" style={{ fontSize: "20px" }} placeholder="enter product price" className=" form-control" value={task.productPrice} onChange={(e) => { setTask({ ...task, productPrice: e.target.value }) }} />
-                        <input type="text" style={{ fontSize: "20px" }} placeholder="enter product price" className=" form-control" value={task.productValue} onChange={(e) => { setTask({ ...task, productValue: e.target.value }) }} />
-                        <button type="submit" style={{ fontSize: "20px" }} className="btn  btn-success mt-2 form-control">submit</button>
-                    </div>
-                </form>
-            </div>
-        </div> */}
+        <Navigation/>
         {/* ............................ */}
 
         <section className="get_in_touch">
