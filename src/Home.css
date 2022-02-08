@@ -126,7 +126,7 @@
     justify-content: flex-end;
     align-items: center;
 }
-.wrapper{
+/* .wrapper{
     max-height:250px;
     display: flex;
     overflow-x: auto;
@@ -134,28 +134,25 @@
 
 .wrapper::-webkit-scrollbar{
     width: 0;
-}
+} */
 
-.wrapper .item{
-    min-width: 200px;
-    height: 250px;
-    text-align: center;
+ .item{
+  
     background-color: #f2f4ec;
-    margin-right: 30px;
-    overflow-y: hidden;
 }
-.wrapper .item img{
-    width:100px;
+ .item img{
+width: 150px;
+
 
 }
 .wrapper .item h3{
-    margin-top: 50px;
 
 }
-.wrapper .item:hover{
+ .item:hover{
     background-color: #fff;
      box-shadow: 5px 5px 5px 10px #aaaaaa;
     border: 1px solid #999;
+    cursor: pointer;
     
 }
 

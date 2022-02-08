@@ -3,6 +3,8 @@ import React, { useEffect, useState } from 'react';
 import { FaRupeeSign } from 'react-icons/fa'
 import { useHistory } from 'react-router-dom'
 import Footer from './Footer';
+import Navigation from './NavBar/Navigation';
+import "./NavBar/Navigation.css";
 
 
 const ProductDetails = (props) => {
@@ -57,25 +59,8 @@ const ProductDetails = (props) => {
     }
 
     return <>
-        {/* <div className="container">
-             {cart.map((dd)={
-                    return(
-                        <>
-                        
-                            <div className="row">
-                                <div className="col-lg-5">
-                                    <img src="" alt="" />
-                                </div>
-                                <div className="col-lg-7">
-                                    <h1>product name :</h1>
-                                </div>
-                            </div>
-                       </>
-                    )
-                })}
-         </div>
-      */}
-
+      
+        <Navigation/>
 
         <section className="main-card--cointainer row">
             <form action="" onSubmit={onSubmitFc} >
@@ -88,11 +73,8 @@ const ProductDetails = (props) => {
                 return (
 
                     <>
-                        {/* <div className="row"> */}
-
 
                         <div className="card col-lg-6 offset-3 my-3 shadow  rounded">
-                            {/* <div className="card-heading"> product</div> */}
                             <div className="card-body row">
                                 <div className="col-lg-6">
                                     <img src={dd.productImage} style={style} alt="" />

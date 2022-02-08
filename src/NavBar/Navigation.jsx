@@ -45,9 +45,6 @@ export default function Navigation() {
                         <li>
                             <NavLink to="/userlogin">Login</NavLink>
                         </li>
-                        <li>
-                            <NavLink to="/footer">Cart</NavLink>
-                        </li>
                     </ul>
                 </div>
 

@@ -17,7 +17,7 @@ export default function Home(product) {
 
   const [cart, setCart] = useState([]);
   // const [data, setData] = useState("");
-  const [cat, setcat] = useState("");
+  const [cat, setcat] = useState("food");
   let history = useHistory()
 
   useEffect(() => {
@@ -104,33 +104,30 @@ export default function Home(product) {
           <div className=" categories-box">
             <div className="main-categori-box">
               <div className="categori-heading">
-                <h1>Shop By Categories</h1>
+                <h1 >Shop By Categories</h1>
               </div>
-              <div className="wrapper">
-                <div className="item">
-                  <img src="https://images.farmiso.in/images/products/731626346384125_64.jpg" alt="" />
-                  <h3 onClick={() => setcat("food")}>food</h3>
+          
+              <div className="row ">
+                <div className="col-sm-2 item text-center mx-5 mt-5 py-2"  onClick={() => setcat("food")}>
+                  <img className='mt-5' src="https://www.freepnglogos.com/uploads/vegetables-png/vegetables-download-vegetable-photos-png-image-pngimg-3.png" alt="" />
+                  <h4 className='mt-5'>food</h4>
                 </div>
-                <div className="item">
-                  <img src="https://images.farmiso.in/images/products/881626346489062_64.jpg" alt="" />
-                  <h3 onClick={() => setcat("vegetables")}>vegetables</h3>
+                <div className="col-sm-2 item text-center mx-5 mt-5  py-2" onClick={() => setcat("vegetables")}>
+                  <img className='mt-5' src="https://static.wixstatic.com/media/2cd43b_a31d4c6a72524636ade99b4600b0e602~mv2.png" alt="" />
+                  <h4 className='mt-5' >vegetables</h4>
 
                 </div>
-                <div className="item">
-                  <img src="https://images.farmiso.in/images/products/301626346470414_64.jpg" alt="" />
-                  <h3 onClick={() => setcat("Grocery")}>Grocery</h3>
+                <div className="item col-sm-2 text-center mx-5 mt-5 py-2 " onClick={() => setcat("Grocery")}>
+                  <img src="http://www.pngplay.com/wp-content/uploads/7/Grocery-Items-Transparent-Background.png" alt="" />
+                  <h4 className='mt-4' >Grocery</h4>
                 </div>
-                <div className="item">
-                  <img src="https://images.farmiso.in/images/products/171626346300276_64.jpg" alt="" />
-                  <h3 onClick={() => setcat("Eggs")}>Eggs</h3>
-                </div>
-                <div className="item">
-                  <img src="https://images.farmiso.in/images/products/921631720423756_64.jpg" alt="" />
-                  <h3 onClick={() => setcat("Household Care")}>Household Care</h3>
+               
+                <div className="col-sm-2 item text-center mx-5 mt-5 py-2" onClick={() => setcat("Household Care")}>
+                  <img src="https://freepngimg.com/thumb/grocery/41619-7-groceries-free-download-image.png" alt="" />
+                  <h4 className='mt-4'>Household Care</h4>
                 </div>
 
               </div>
-
             </div>
           </div>
           {/* ---------------------product item ------------------------ */}
