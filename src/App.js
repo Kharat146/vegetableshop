@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Home from './Home';
 import Admin from './Admin/Admin'
@@ -7,10 +7,11 @@ import AdminProduct from './Admin/AdminProduct';
 import UserLogin from './UserLogin';
 import UserRegitration from './UserRegitration';
 import {  Route, Switch,BrowserRouter as Router } from 'react-router-dom';
-import ProductCart from './ProductCart';
 import ProductDetails from './ProductDetails';
 import UserData from './UserData';
 import  Footer from './Footer';
+import { OrderPlaced } from './OrderPlaced';
+
 
 function App() {
 
@@ -29,6 +30,8 @@ function App() {
         <Route path="/productdetails" component={ProductDetails } />
         <Route path="/userdata" component={UserData } />
         <Route path="/footer" component={Footer } />
+        <Route path="/orderplaced" component={OrderPlaced } />
+
 
         {/* <Route path="/productcart" element={<ProductCart />} /> */}
       </Router>

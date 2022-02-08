@@ -5,9 +5,9 @@
 
 }
 
-body {
-    /* background-color: rgb(219, 226, 226); */
-    /* font-size: 30px; */
+.section {
+    height: 75vh;
+   
 }
 
 .row-css{

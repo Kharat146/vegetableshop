@@ -3,6 +3,7 @@ import Navigation from './NavBar/Navigation';
 import axios from 'axios';
 import './Admin/Admin.css'
 import { useHistory } from 'react-router-dom';
+import Footer from './Footer';
 
 export default function UserLogin() {
     let history = useHistory();
@@ -14,9 +15,9 @@ export default function UserLogin() {
     const [fn, setFn] = useState("");
     const [regitrationData, setRegitrationData] = useState([]);
     const [length, setLength] = useState();
-    const styleP={
+    const styleP = {
         fontSize: "18px",
-        cursor:"pointer"
+        cursor: "pointer"
     }
 
     useEffect(() => {
@@ -33,14 +34,14 @@ export default function UserLogin() {
     }, []);
 
     const onSubmitHandler = (e) => {
-      
+
 
         {
             regitrationData.map((dd) => {
 
                 if (userData.name == dd.firstName && userData.pass == dd.password) {
                     alert("login successful");
-                    history.push("/userdata");
+                    history.push("/");
                 }
 
             })
@@ -49,7 +50,7 @@ export default function UserLogin() {
         e.preventDefault();
     }
 
-    const Register =()=>{
+    const Register = () => {
         history.push("/userregitration");
     }
     return <div>
@@ -74,7 +75,7 @@ export default function UserLogin() {
                                 <div className="col-lg-10">
                                     <input type="pass" placeholder="********" className="form-control my-3 p-4" value={userData.pass} onChange={(e) => { setuserData({ ...userData, pass: e.target.value }) }} />
                                 </div>
-                                </div>
+                            </div>
                             <div className="form-row">
                                 <div className="col-lg-10">
                                     <button type="submit" className="btn1 my-3">Login</button>
@@ -82,7 +83,7 @@ export default function UserLogin() {
                             </div>
                             <div className="form-row">
                                 <div className="col-lg-12 row">
-                                
+
                                     <p style={styleP} className='col-6'>Don't have an account? </p>
                                     <span onClick={Register} className='text-primary col-6' style={styleP}>Register here</span>
                                 </div>
@@ -93,6 +94,6 @@ export default function UserLogin() {
             </div>
         </section>
 
-
+        <Footer/>
     </div>;
 }

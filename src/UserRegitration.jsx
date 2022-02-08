@@ -3,6 +3,7 @@ import axios from 'axios';
 import { useHistory } from 'react-router-dom';
 import './UserRegitration.css';
 import Navigation from './NavBar/Navigation';
+import Footer from './Footer';
 
 export default function UserRegitration() {
     // const [admin, setAdmin] = useState({});
@@ -87,6 +88,7 @@ export default function UserRegitration() {
                 </div>
             </form>
         </section >
+        <Footer/>
     </>
 
 

@@ -3,6 +3,7 @@ import axios from 'axios';
 import {useHistory} from 'react-router-dom';
 import {GrProductHunt} from 'react-icons/gr'
 import Navigation from '../NavBar/Navigation';
+import Footer from '../Footer';
 
 export default function AdminLogin() {
     let history = useHistory();
@@ -40,7 +41,7 @@ export default function AdminLogin() {
 
     return <>
     <Navigation/>
-        <section class="form my-4 offset-2 col-lg-6 ">
+        <section class="form my-5 offset-2 col-lg-6 ">
         <div class="container offset-2">
             <div class="row row-css no-gutters">
                 <div class="col-lg-10 offset-1 pt-3">
@@ -52,7 +53,7 @@ export default function AdminLogin() {
                                     <h5 className='mt-4'>Enter Product Name :-</h5>
                                 </div>
                                 <div className="col-sm-7">
-                                <input type="text" placeholder="Product Name" class="form-control my-3 p-4" value={task.productName}  onChange={(e) => { setTask({ ...task, productName: e.target.value }) }}  />
+                                <input type="text" placeholder="Product Name" class="form-control my-3" value={task.productName}  onChange={(e) => { setTask({ ...task, productName: e.target.value }) }}  />
                                 </div>
                             </div>
                         </div>
@@ -78,7 +79,7 @@ export default function AdminLogin() {
                                     <h5 className='mt-4'>Enter Product Image :-</h5>
                                 </div>
                                 <div className="col-sm-7">
-                                <input type="url" placeholder="Product Image URL" class="form-control my-3 p-4"  value={task.productImage} onChange={(e) => { setTask({ ...task, productImage: e.target.value }) }} />
+                                <input type="url" placeholder="Product Image URL" class="form-control my-3"  value={task.productImage} onChange={(e) => { setTask({ ...task, productImage: e.target.value }) }} />
                                 </div>
                             </div>
                         </div>
@@ -88,7 +89,7 @@ export default function AdminLogin() {
                                     <h5 className='mt-4'>Enter Product Price :-</h5>
                                 </div>
                                 <div className="col-sm-7">
-                                <input type="Number" placeholder="Product Price " class="form-control my-3 p-4" value={task.productPrice}  onChange={(e) => { setTask({ ...task, productPrice: e.target.value }) }}  />
+                                <input type="Number" placeholder="Product Price " class="form-control my-3" value={task.productPrice}  onChange={(e) => { setTask({ ...task, productPrice: e.target.value }) }}  />
                                 </div>
                             </div>
                         </div>
@@ -98,7 +99,7 @@ export default function AdminLogin() {
                                     <h5 className='mt-4'>Enter Product Valume :-</h5>
                                 </div>
                                 <div className="col-sm-7">
-                                <input type="text" placeholder="Product Valume" class="form-control my-3 p-4" value={task.productValue}  onChange={(e) => { setTask({ ...task, productValue: e.target.value }) }}  />
+                                <input type="text" placeholder="Product Valume" class="form-control my-3" value={task.productValue}  onChange={(e) => { setTask({ ...task, productValue: e.target.value }) }}  />
                                 </div>
                             </div>
                         </div>
@@ -123,7 +124,7 @@ export default function AdminLogin() {
         </div>
     </section>
 
-
+    <Footer/>
 
     </>
 }

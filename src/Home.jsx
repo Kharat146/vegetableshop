@@ -7,6 +7,8 @@ import axios from 'axios'
 import { useHistory } from 'react-router-dom'
 import { Link } from 'react-router-dom'
 import {BiRupee} from 'react-icons/bi'
+import {GrProductHunt} from 'react-icons/gr'
+import Footer from './Footer'
 // import { Routes, Route } from 'react-router-dom';
 // import ProductCart from './ProductCart'
 
@@ -133,6 +135,7 @@ export default function Home(product) {
           </div>
           {/* ---------------------product item ------------------------ */}
           <section className="main-card--cointainer row">
+
             {cart.filter((el) => {
               return el.productCategory === cat;
             }).map((dd) => {
@@ -143,7 +146,7 @@ export default function Home(product) {
 
 
                   <div className="card col-8 col-sm-8 ml-sm-5 ml-3 .mx-md-5  col-md-4 col-lg-2  m-5 my-3 shadow bg-white rounded" >
-                    <div className="card-heading text-end text-secondary"> {dd.productCategory}*</div>
+                    <div className="card-heading text-end text-secondary"><GrProductHunt className='mx-3 text-start'/> {dd.productCategory}*</div>
                     <div className="card-body">
                       <img src={dd.productImage} alt="" />
                       <h4>{dd.productName}</h4>
@@ -164,7 +167,10 @@ export default function Home(product) {
               )
             })}
           </section>
-
+          {/* ----------------------Footer Section-------------------- */}
+          <section>
+          <Footer/>
+          </section>
 
 
 
@@ -176,7 +182,7 @@ export default function Home(product) {
       </div>
 
 
-
+    
     </>
   )
 }
