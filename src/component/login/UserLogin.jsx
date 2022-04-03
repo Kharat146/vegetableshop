@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react'
-import Navigation from './NavBar/Navigation';
+import Navigation from '../NavBar/Navigation';
 import axios from 'axios';
-import './Admin/Admin.css'
+import '../Admin/Admin.css'
 import { useHistory } from 'react-router-dom';
-import Footer from './Footer';
+import Footer from '../footer/Footer';
 
 export default function UserLogin() {
     let history = useHistory();

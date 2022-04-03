@@ -2,8 +2,8 @@ import React, { useEffect, useState } from 'react'
 import axios from 'axios';
 import { useHistory } from 'react-router-dom';
 import './UserRegitration.css';
-import Navigation from './NavBar/Navigation';
-import Footer from './Footer';
+import Navigation from '../NavBar/Navigation';
+import Footer from '../footer/Footer';
 
 export default function UserRegitration() {
     // const [admin, setAdmin] = useState({});

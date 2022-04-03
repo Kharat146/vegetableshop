@@ -2,9 +2,9 @@ import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import { FaRupeeSign } from 'react-icons/fa'
 import { useHistory } from 'react-router-dom'
-import Footer from './Footer';
-import Navigation from './NavBar/Navigation';
-import "./NavBar/Navigation.css";
+import Footer from '../footer/Footer';
+import Navigation from '../NavBar/Navigation';
+import "../NavBar/Navigation.css";
 
 
 const ProductDetails = (props) => {

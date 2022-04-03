@@ -3,7 +3,7 @@ import Navigation from '../NavBar/Navigation'
 import axios from 'axios';
 import './Admin.css'
 import {useHistory} from 'react-router-dom';
-import Footer from '../Footer';
+import Footer from '../footer/Footer';
 
 export default function Admin() {
     let history = useHistory();

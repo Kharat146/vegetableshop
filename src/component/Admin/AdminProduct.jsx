@@ -19,7 +19,7 @@ export default function AdminProduct() {
 
 
         })
-    }, [menuData]);
+    }, []);
 
     const deleteItem=(del)=>{
     console.log(del);
@@ -51,10 +51,10 @@ export default function AdminProduct() {
                             <div className="card-footer">
                                 <h5 className="text-right text-secondary">{dd.productValue}</h5>
                                 <h3><BiRupee/>{dd.productPrice} </h3>
-                                <button className='btn btn-danger' onClick={()=>{
+                                <button className='btn btn-danger  col-sm-5' onClick={()=>{
                                     deleteItem(dd.id)
                                 }}>Delete <MdDeleteOutline/> </button>
-                                <button className='btn btn-success mx-1'>Update <FaEdit/></button>
+                                <button className='btn btn-success mx-1 col-sm-6'>Update <FaEdit/></button>
                             </div>
                         </div>
                         {/* </div> */}

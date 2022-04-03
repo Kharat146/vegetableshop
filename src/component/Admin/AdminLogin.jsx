@@ -2,8 +2,9 @@ import React, { useEffect, useState } from 'react'
 import axios from 'axios';
 import {useHistory} from 'react-router-dom';
 import {GrProductHunt} from 'react-icons/gr'
+import {AiOutlineDown} from 'react-icons/ai'
 import Navigation from '../NavBar/Navigation';
-import Footer from '../Footer';
+import Footer from '../footer/Footer';
 
 export default function AdminLogin() {
     let history = useHistory();

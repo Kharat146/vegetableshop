@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import Navigation from './NavBar/Navigation'
+import Navigation from '../NavBar/Navigation'
 import './Home.css'
 import { FaTelegramPlane } from 'react-icons/fa'
 import { BsCartCheckFill } from 'react-icons/bs'
@@ -8,7 +8,7 @@ import { useHistory } from 'react-router-dom'
 import { Link } from 'react-router-dom'
 import {BiRupee} from 'react-icons/bi'
 import {GrProductHunt} from 'react-icons/gr'
-import Footer from './Footer'
+import Footer from '../footer/Footer'
 // import { Routes, Route } from 'react-router-dom';
 // import ProductCart from './ProductCart'
 

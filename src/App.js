@@ -1,16 +1,16 @@
 
 import './App.css';
-import Home from './Home';
-import Admin from './Admin/Admin'
-import AdminLogin from './Admin/AdminLogin';
-import AdminProduct from './Admin/AdminProduct';
-import UserLogin from './UserLogin';
-import UserRegitration from './UserRegitration';
+import Home from './component/home/Home';
+import Admin from './component/Admin/Admin'
+import AdminLogin from './component/Admin/AdminLogin';
+import AdminProduct from './component/Admin/AdminProduct';
+import UserLogin from './component/login/UserLogin';
+import UserRegitration from './component/login/UserRegitration';
 import {  Route, Switch,BrowserRouter as Router } from 'react-router-dom';
-import ProductDetails from './ProductDetails';
-import UserData from './UserData';
-import  Footer from './Footer';
-import { OrderPlaced } from './OrderPlaced';
+import ProductDetails from './component/productDetails/ProductDetails';
+// import UserData from './component/login/';
+import  {Footer} from './component/footer/Footer';
+import { OrderPlaced } from './component/productDetails/OrderPlaced';
 
 
 function App() {
@@ -28,7 +28,7 @@ function App() {
         <Route path="/userlogin" component={UserLogin } />
         <Route  path="/userregitration" component={UserRegitration } />
         <Route path="/productdetails" component={ProductDetails } />
-        <Route path="/userdata" component={UserData } />
+        {/* <Route path="/userdata" component={UserData } /> */}
         <Route path="/footer" component={Footer } />
         <Route path="/orderplaced" component={OrderPlaced } />
 
